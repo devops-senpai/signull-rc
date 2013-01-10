@@ -117,7 +117,10 @@ call pathogen#helptags()
 " Settings for vim-powerline
 " cd ~/.vim/bundle
 " git clone git://github.com/Lokaltog/vim-powerline.git
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
 set laststatus=2
+
 
 
 " Settings for python-mode
